@@ -1,8 +1,9 @@
-music_library = {:taylor_swift =>
+music_library = {:ed_sheeran => "Thinking Out Loud", :taylor_swift => "Style", :silent => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammer => "Honey I'm Good", :maroon_five => "Sugar"}
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
 
 def list_artists
+  artists = music_library
   
 end
 
