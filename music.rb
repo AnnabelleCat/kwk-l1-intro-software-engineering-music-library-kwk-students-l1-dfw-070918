@@ -3,10 +3,10 @@ music_library = {:ed_sheeran => "Thinking Out Loud", :taylor_swift => "Style", :
 # This method should accept a hash as an argument.
 
 def list_artists
-  artists = music_library
-  
+  artists = music_library.each_key
+  puts artists
 end
-
+list_artists
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
 # This method should accept a hash as an argument.
 
